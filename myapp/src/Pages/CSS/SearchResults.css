@@ -1,0 +1,131 @@
+.search-results{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: bolder;
+  }
+  .search-banner {
+    display: block;
+    padding: 0%;
+    cursor: pointer;
+    
+}
+
+  .search-title h1{
+   
+    margin: 30px;
+    margin-left: 650px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .search-title hr{
+    width: 197px;
+    height:6px;
+    border-radius: 10px;
+    background: hsl(0, 0%, 10%);
+    margin-bottom: 50px;
+    border:none;
+}
+  .search-results img{
+    width: 100%;
+  }  
+  .search-results h3{
+    margin-bottom: 15px;
+  }
+  .search-results-price{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .search-results-price-old{
+    color: #818181;
+    font-weight: 500;
+    text-decoration: line-through;
+  }
+  .search-results-price-new{
+    font-weight: 500;
+    color: #2f2e2e;
+    font-weight: bold;
+
+  }
+
+  @media(max-width:1280px){
+    .search-title h1{
+   
+        margin: 30px;
+        margin-left: 600px;
+    
+      }
+      .search-title hr{
+        margin-left: 600px;
+      }
+
+ .search-results{
+    width: 90%;
+    margin: 10px auto;
+    row-gap: 40px;
+    }
+  .search-results img{
+    width: 100%;
+  }  
+
+  }
+
+  @media(max-width:1024px){
+    .search-title h1{
+   
+        margin: 30px;
+        margin-left: 450px;
+    
+      }
+      .search-title hr{
+        margin-left: 450px;
+      }
+
+
+    .search-results{
+
+       margin: 10px auto;
+       row-gap: 40px;
+       }
+       
+ }
+
+ @media(max-width:800px){
+    .search-title h1{
+   
+        margin: 30px;
+        margin-left: 300px;
+    
+      }
+      .search-title hr{
+        margin-left: 300px;
+      }
+
+
+.search-results img{
+ width: 95%;
+ }
+}
+
+@media(max-width:500px){
+    .search-title h1{
+   
+        margin: 30px;
+        margin-left: 100px;
+    
+      }
+      .search-title hr{
+        margin-left: 100px;
+      }
+
+    .search-results{
+    grid-template-columns: 1fr 1fr;
+    }
+}

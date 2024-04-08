@@ -1,0 +1,38 @@
+.selected {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 10%;
+    background-color: rgb(73, 73, 247);
+    border: 1px solid rgb(84, 84, 84);
+    margin-right: 20px; /* Adjust as needed */
+  }
+  .unselected {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 10%;
+    border: 1px solid rgb(84, 84, 84);
+    background-color: #ccc; /* Greyish color */
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  li {
+    position: relative;
+    padding-left: 20px; /* Ensure space for the dot */
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -35px;
+    margin-top: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  

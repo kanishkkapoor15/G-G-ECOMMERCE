@@ -1,0 +1,21 @@
+.ThankYou h1{
+   font-size: 45px;
+    color: rgb(89, 91, 91);
+}
+
+.ThankYou-first {
+    margin-top: 90px;
+    display: flex;
+    margin-left: 430px;
+    align-items: center;
+}
+.ThankYou-second h2{
+    color: rgb(89, 91, 91);
+    font-size: 35px;
+    display: flex;
+    margin-left: 560px;
+    align-items: center;
+}
+.ThankYou img{
+    width: 10%;
+}
