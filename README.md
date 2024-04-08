@@ -10,3 +10,6 @@ Key Features:
 2. Secure BASE64 Encryption Authentication.
 3. Customize and Place order for your own tshirt & product(Edit product images in real time and customize them as per your client's need)
 ![image](https://github.com/kanishkkapoor15/G-G-ECOMMERCE/assets/71957724/57319b46-2e69-4415-8662-ba3719883e59)
+
+To install:
+Simply start "npm install" in first ,the main directory ,and then individually inside the sub-directories.
