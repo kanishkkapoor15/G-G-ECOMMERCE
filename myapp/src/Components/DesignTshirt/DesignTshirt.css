@@ -47,6 +47,8 @@ button {
     /* text-transform: uppercase; */
     margin: 10px 10px 10px -56px;
     color: #121212;
+    font-size: 25px;
+    margin-left: 2px;
 }
 .container .sidebar p {
    font-size: 10px;
@@ -309,6 +311,12 @@ button {
 .collection-row img {
     width: 60px;
     height: 60px;
+}
+.collection-row label{
+    font-size: 16px;
+}
+.collection-row select{
+    width: 19%;
 }
 
 .input2[type="text"] {

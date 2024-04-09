@@ -417,7 +417,7 @@ return (
          <div className="container">
                 <div className="sidebar">
                     <div className="heading">
-                        <h1>Enter Text</h1>
+                        <h1>G&G CREATOR</h1>
                         <p>(*to be added on product)</p>
                     </div>
 
@@ -426,6 +426,7 @@ return (
                             <input
                                 type="text"
                                 className="fullWidth-input input2"
+                                placeholder='enter text'
                                 name="text"
                                 value={textField.text}
                                 onChange={(event) => handleTextChange(index, event)}
